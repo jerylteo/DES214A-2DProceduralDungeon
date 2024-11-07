@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de410b144b39544198e3dfef05aeaa02
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - moolahPrefab: {fileID: 8790380160609917880, guid: c7eca8b0589e144f9add61339a3d56d5,
+      type: 3}
+  - HeartPickupPrefab: {fileID: 4516855188263611784, guid: 855c3d72b05c23345a50fc4cefc163cd,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

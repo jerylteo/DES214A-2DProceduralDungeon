@@ -1,0 +1,45 @@
+Strong Phase:
+- Enemies get harder (Difficulty & Modifiers) as you progress
+- Enemies spawn rate increases exponentially as you progress
+- Varied and complex layouts including multiple paths for different strategies (Loops, intersection rooms, branches, forks, etc.)
+- Varied traps along the way (Floor Trap, Fireball)
+- Corridors, Loops, Obstacles generated to provide refuge
+- Special Room with a challenge to unlock it provides a break from combat
+
+Super Varied Layout:
+- Procedurally generated connectors, floors and walls for varying layouts
+- Varied and complex layouts including multiple paths for different strategies (Loops, intersecting rooms, branches, forks, etc.)
+- Special Room with a challenge
+
+Super Varied Enemies:
+- Enemies has 5 difficulties (Trivial, Easy, Medium, Hard, Boss), 
+- 3 different types (Normal, Shotgun, Stalker), 
+- and 1-5 modifiers (Strong, Fast, Tank, Sniper, Bombarder) each
+- Modifiers add a hue to the enemy base colour, providing visually unique enemies. (E.g. Fast: +Yellow, Strong: +Red, Tank: +Purple, Fast&Strong: +Yellow+Red...)
+- Totalling to hundreds of enemy variations.
+
+Excellent Rewards:
+- EXP based levelling system
+- EXP gain based on enemy difficulty
+- Special room locked by silver door containing extra EXP
+
+Polished Combat:
+- Varied types of enemies with modifiers
+- Varied room types with obstacles and dynamic traps
+- Forces Player to be mindful and to approach a challenge tactically
+
+Special Rooms or Events:
+- Special room that requires shooting at certain targets to unlock. Once targets are shot, they will change colour, indicating a success. If all targets are shot, special room will unlock, granting the Player with some EXP and potentially unlocking another section/route of the level.
+- Fail State: A reset timer (Default 3f) will reset the state of the shot targets (one by one) if not all shot within the reset timer.
+
+Lots of Playtests: 
+- 7 Playtests with Google Survey
+
+Insightful Playlists:
+- Google Survey: https://docs.google.com/forms/d/e/1FAIpQLSeQUy05oLlfOz3Xb6GsKx10ewOqUJWxXefD2xqR2rep6bxaIg/viewform?usp=sharing
+
+Custom Extra:
+- Extreme granularity for PCG. Only using given prefabs - Wall & Floor for level building. Everything you see is generated. No pre-made room prefabs etc. Achieved by generating in order of: Room Connectors, Floors, Walls, Extras, Entities and Pickups. Code available to prove.
+- Dynamic enemies with difficulties, types and modifiers each, presenting > 600 variety of enemies.
+- Modified the way enemy aggro works. Regardless of distance, if enemy gets shot by Player, it will know where the Player is and chase for a preset amount of time (Default 3f). This makes the enemies less "dumb" and more reactive to the Player's actions, eliminating the "camp and shoot out of range" tactic.
+- Calculation of camera zoom and center position in each generation of layout to ensure it will always show the entire map
